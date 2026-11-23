@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>MAMADJONOV'S HoteL</title>
+  <link rel="icon" href="Hotel-5-Stars-icon.png" type="image/x-icon">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Jost:wght@300;400;500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="intro">
+    <div class="ib"><span>M</span><span>A</span><span>M</span><span>A</span><span>D</span><span>J</span><span>O</span><span>N</span><span>O</span><span>V</span><span>'S</span></div>
+    <p>Mehmonxona · MAMADJONOV'S</p><i></i>
+  </div>
+  <div class="orbs"><b></b><b></b><b></b></div>
+  <header><a class="logo" href="#">Mamadjonov's<b>.</b></a>
+    <nav><a href="#xonalar">Xonalar</a><a href="#qulay">Qulayliklar</a><a href="#narx">Narxlar</a><a
+        href="#bron">Bron</a></nav>
+    <div class="hact"><button id="theme" class="ic" title="Rejim">Yorug'</button><button id="cartBtn" class="ic">Savat
+        <em id="count">0</em></button><a class="btn sm" href="#bron">Bron qilish</a></div>
+  </header>
+  <div id="progress"></div>
+  <section class="hero">
+    <div class="hero-t">
+      <p class="tag">Samarqand · 5 yulduz</p>
+      <h1>Tinchlik <em>sizni</em><br>kutmoqda.</h1>
+      <p id="slogan">Har bir xona — alohida hikoya.</p>
+      <div class="hero-btns"><a class="btn" href="#xonalar">Xonalarni ko'rish</a><a class="ghost" href="#bron">Bron
+          qilish</a></div>
+      <div class="stats">
+        <div><b>120+</b><small>Xonalar</small></div>
+        <div><b>4.9</b><small>Reyting</small></div>
+        <div><b>24/7</b><small>Xizmat</small></div>
+      </div>
+    </div>
+    <div class="hero-img"><img id="heroImg" src="img/hero.jpg" alt="Zumrad Hotel">
+      <div class="badge"><small>Bugungi taklif</small><b>-25%</b><span id="timer">00:00:00</span></div>
+    </div>
+  </section>
+  <section id="xonalar" class="rv">
+    <p class="tag">Xonalar</p>
+    <h2>O'zingizga mos xonani tanlang</h2>
+    <div class="tabs" id="tabs"><button class="on" data-f="all">Barchasi</button><button
+        data-f="Standart">Standart</button><button data-f="Lyuks">Lyuks</button><button
+        data-f="Apartament">Apartament</button></div>
+    <div class="grid" id="grid"></div>
+  </section>
+  <section class="lobby rv">
+    <div class="lim"><img src="img/lobby.jpg" alt="Lobbi"></div>
+    <div class="ltx">
+      <p class="tag">Biz haqimizda</p>
+      <h2>Sharq mehmondo'stligi, zamonaviy hashamat</h2>
+      <p class="mut">Registon yonida joylashgan Zumrad 2009-yildan beri 80 mingdan ortiq mehmonni kutib oldi. Har bir
+        detal — milliy naqshlardan tortib marmar lobbigacha — sizning qulayligingiz uchun.</p>
+      <div class="stats">
+        <div><b>15+</b><small>Yil tajriba</small></div>
+        <div><b>80K</b><small>Mehmonlar</small></div>
+        <div><b>32</b><small>Mukofot</small></div>
+      </div>
+    </div>
+  </section>
+  <section id="qulay" class="rv fac">
+    <p class="tag">Qulayliklar</p>
+    <h2>Dam olish uchun hammasi bor</h2>
+    <div class="fgrid">
+      <div class="card">
+        <div class="im"><img src="img/spa.jpg" alt="Basseyn"></div>
+        <div class="in">
+          <h3>Hammom va basseyn</h3>
+          <p>Isitiladigan yopiq basseyn, hammom va massaj.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="im"><img src="img/food.jpg" alt="Restoran"></div>
+        <div class="in">
+          <h3>Restoran</h3>
+          <p>Milliy va Yevropa taomlari, oshpazdan maxsus menyu.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="im"><img src="img/r5.jpg" alt="Terrasa"></div>
+        <div class="in">
+          <h3>Tom terrasasi</h3>
+          <p>Jakuzi va shahar manzarasi bilan kechki dam olish.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="narx" class="rv prices">
+    <p class="tag">Narxlar</p>
+    <h2>Tariflar</h2>
+    <div class="pgrid">
+      <div class="pc">
+        <h3>Standart</h3><b>$90<small>/kecha</small></b>
+        <p>Nonushta · Internet · Basseyn</p>
+      </div>
+      <div class="pc hot">
+        <h3>Lyuks</h3><b>$160<small>/kecha</small></b>
+        <p>Nonushta va kechki ovqat · Hammom · Kutib olish</p>
+      </div>
+      <div class="pc">
+        <h3>Apartament</h3><b>$320<small>/kecha</small></b>
+        <p>Hammasi kiritilgan · Shaxsiy xizmatchi · Terrasa</p>
+      </div>
+    </div>
+  </section>
+  <section class="rv quote">
+    <p id="review">"Hayotimdagi eng yaxshi dam olish edi."</p><b id="author">— Malika, Toshkent</b>
+  </section>
+  <section id="bron" class="rv book">
+    <div>
+      <p class="tag">Bron qilish</p>
+      <h2>Xonangizni hozir band qiling</h2>
+      <p class="mut">Tanlangan xona: <b id="chosen">tanlanmagan</b></p>
+      <p class="mut">Jami: <b id="total">$0</b></p>
+    </div>
+    <form id="form"><input id="name" placeholder="Ismingiz" required><input id="phone" placeholder="+998 90 123 45 67"
+        required>
+      <label>Kelish<input type="date" id="in" required></label><label>Ketish<input type="date" id="out"
+          required></label>
+      <select id="room"></select><select id="guests">
+        <option>1 mehmon</option>
+        <option selected>2 mehmon</option>
+        <option>3 mehmon</option>
+        <option>4 mehmon</option>
+      </select>
+      <button class="btn">Tasdiqlash</button>
+      <p id="msg"></p>
+    </form>
+  </section>
+  <footer>
+    <div class="fcols">
+      <div><a class="logo" href="#">Mamadjonov's<b>.</b></a>
+        <p>MAMADJONOV qalbidagi hashamatli mehmonxona. 2009-yildan beri mehmonlarni kutib olamiz.</p>
+      </div>
+      <div>
+        <h4>Sahifalar</h4><a href="#xonalar">Xonalar</a><a href="#qulay">Qulayliklar</a><a href="#narx">Narxlar</a><a
+          href="#bron">Bron</a>
+      </div>
+      <div>
+        <h4>Aloqa</h4>
+        <p>UYCHI, YANGI HAYOT ko'chasi 12</p>
+        <p>+998 50 030 54 50</p>
+        <p>MAMADJONOV'S.uz</p>
+      </div>
+      <div>
+        <h4>Yangiliklar</h4>
+        <p>Maxsus takliflarni birinchi bo'lib oling.</p>
+        <form class="sub"><input placeholder="Email manzilingiz"><button class="btn sm">Obuna</button></form>
+      </div>
+    </div>
+    <div class="fimgs"><img src="img/r6.jpg" alt=""><img src="img/r8.jpg" alt=""><img src="img/r3.jpg" alt=""><img
+        src="img/r4.jpg" alt=""><img src="img/spa.jpg" alt=""><img src="img/food.jpg" alt=""></div>
+    <div class="fbot"><span>© 2026 MAMADJONOV'S Hotel. Barcha huquqlar himoyalangan.</span><span>Maxfiylik siyosati ·
+        Foydalanish shartlari</span></div>
+  </footer>
+  <aside id="cart">
+    <div class="ch">
+      <h3>Savat</h3><button id="close" class="ic">Yopish</button>
+    </div>
+    <ul id="items"></ul>
+    <div class="ctot">Jami (1 kecha): <b id="csum">$0</b></div><button class="btn" id="checkout">Hammasini bron
+      qilish</button>
+  </aside>
+  <div id="shade"></div>
+  <div id="toast"></div>
+  <script src="app.js"></script>
+</body>
+
+</html>
